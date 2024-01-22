@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+body{
+    /* display: flex; */
+    margin-top: 120px;
+}
+.main{
+    margin-top: 80px;
+    display: flex;
+    padding: 40px;
+    
+    
+    
+    
+}
+.title{
+
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    margin: 120px;
+    margin-left: 250px;
+    font-weight: 500;
+}
+.describ{
+    margin-top: 20px;
+    font-family: serif;
+    font-size: 20px;
+}
+.name{
+    display: flex;  
+    font-size: 45px;
+    width: 340px;
+   
+}
+.mainimage{
+    justify-content: center;
+    margin: 120px;
+    background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: 320px;
+}
+.checkbtn{
+    margin-top: 12px;
+    text-align: center;
+    width: 40%;
+    background-color:#f42f2c;
+    border: 2px solid #f42f2c;
+    border-radius: 2px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+.title2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 300;
+}
+.items-gallery{
+    margin-left: 230px;
+    display: flex;
+    width: 55%;
+    align-items:center;
+    padding: 20px;
+    justify-content: center;
+    
+
+}
+.sub{
+margin-top:35px;    
+margin-left:70px ;
+flex-direction: column;
+width: 420px;
+
+}
+.pic{
+    align-items:center;
+    justify-content: center;
+    margin-left: 50px;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 120px;
+}
+.im1{
+    background-image: url('images/d1.jpg.webp');
+    
+}
+.im2{
+    background-image: url('images/d2.jpg.webp');
+}
+.im3{
+    background-image: url('images/d3.jpg.webp');
+}
+.nm{
+    margin-left: 50px;  
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-align: center;
+}
+.sbnm{
+    margin-left: 50px;  
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    text-align: center;
+}
+.cost{
+    padding-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-menu{
+    margin-top: 120px;
+    margin-bottom: 220px;
+}
+.title3{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 40%;
+    display: inline-block;
+}
+.menu2{
+    display: flex;
+    margin-left: 190px;
+    flex-direction: row;
+}
+.name1{
+    flex-direction: column;
+}
+.name1,.menua{
+    margin-left: 50px;
+    font-size: 30px;
+    
+ 
+
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+.menua{
+    margin-top:30px ;
+    flex-direction: row;
+    margin-right:50px ;
+}
+.menub{
+    margin-top:30px ;
+    margin-left: 30px;
+    font-size: 30px;
+    flex-direction: column;
+
+}
+.subname{
+    font-weight:595;
+   font-size: 21px;
+justify-content: end;
+}
+.subname2{
+    font-weight:595;
+    font-size: 21px;
+ justify-content: end;
+
+}
+.food-gallery{
+    margin-top: 120px;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+
+}
+.title4{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 300;
+    align-items: center;
+    
+    display: flex; 
+   
+  
+}
+.photo-top{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.tp1{
+    background-image: url("images/g1.jpg.webp");
+    width: 60%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:20px ;
+}
+.tp2{
+    background-image: url("images/g2.jpg.webp");
+    width: 30%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.photo-mid{
+    display: flex;
+   
+}
+.m1{
+    background-image: url("images/g3.jpg.webp");
+    width: 30%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.m2{
+    background-image: url("images/g4.jpg.webp");
+    width: 30%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.m3{
+    background-image: url("images/g5.jpg.webp");
+    width: 30%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
